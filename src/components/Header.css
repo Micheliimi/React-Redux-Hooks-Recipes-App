@@ -1,0 +1,50 @@
+.header-container {
+  background-color: #6C63FF;
+  width: 100%;
+}
+ 
+.header-content {
+  max-width: 1020px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.player-info {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.player-info h3 {
+  color: white;
+}
+
+.player-score {
+  font-size: x-large;
+  font-weight: bold;
+  color: white;
+}
+
+.player-image {
+  border-radius: 100px;
+  border: 1px solid white;
+  width: 50px;
+}
+.number-quetions {
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+}
+
+.amout-questions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.number-quetions span {
+  font-size: 35px;
+}
